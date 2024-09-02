@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">WIL Mobile App</string>
+    <string name="get_started">Get Started!</string>
+    <string name="todo">TODO</string>
+    <string name="from_techminds_institute">From TechMinds Institute</string>
+    <string name="from_techminds_institute2">From TechMinds Institute</string>
+    <string name="todo2">TODO</string>
+    <string name="contact_us">Contact Us.</string>
 </resources>
