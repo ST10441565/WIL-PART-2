@@ -6,4 +6,11 @@
     <string name="from_techminds_institute2">From TechMinds Institute</string>
     <string name="todo2">TODO</string>
     <string name="contact_us">Contact Us.</string>
+    <string name="contact_us2">Contact Us</string>
+    <string name="homepage">Homepage</string>
+    <string name="what_we_do">What we do</string>
+    <string name="summary">Empowering the Nation is committed to fostering good change by enabling people to realise their greatest potential as individuals, groups, and communities. Based on the values of creativity, diversity, and honesty, we are dedicated to developing long-term solutions that deal with the most important issues facing our country right now.</string>
+    <string name="six_month_courses">Six-Month Courses</string>
+    <string name="courses">Courses</string>
+    <string name="price">Price</string>
 </resources>
