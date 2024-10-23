@@ -5,20 +5,20 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#1F1F1F"
+    android:backgroundTint="#2E2B2B"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="399dp"
-        android:layout_height="388dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
+        android:layout_width="440dp"
+        android:layout_height="415dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/empowering_the_nation" />
+        app:srcCompat="@drawable/empowering_the_nation"
+        tools:ignore="VisualLintBounds" />
 
     <Button
         android:id="@+id/button"
@@ -29,13 +29,14 @@
         android:layout_marginEnd="143dp"
         android:backgroundTint="#50ADE3"
         android:text="@string/get_started"
-        android:textColor="#474545"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:cornerRadius="0px"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView3"
@@ -48,6 +49,10 @@
         android:text="@string/from_techminds_institute2"
         android:textAlignment="center"
         android:textAllCaps="true"
+        android:textColor="#C8C8C8"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
         android:textSize="14sp"
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"

@@ -13,4 +13,9 @@
     <string name="six_month_courses">Six-Month Courses</string>
     <string name="courses">Courses</string>
     <string name="price">Price</string>
+    <string name="sewing">Sewing</string>
+    <string name="first_aid">First-Aid</string>
+    <string name="landscaping">Landscaping</string>
+    <string name="life_skills">Life Skills</string>
+    <string name="r1500">R1500</string>
 </resources>
