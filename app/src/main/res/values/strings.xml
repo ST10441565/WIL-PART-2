@@ -18,4 +18,13 @@
     <string name="landscaping">Landscaping</string>
     <string name="life_skills">Life Skills</string>
     <string name="r1500">R1500</string>
+    <string name="avaliable_courses">Avaliable Courses</string>
+    <string name="contact_us3">Contact Us</string>
+    <string name="summary2">Our goal is to close the disparities in economic development, education, and technology so that all citizens have the means to prosper. We think that by encouraging cooperation, advocating for fair opportunities, and investing in people\'s potential, we can create a more robust and prosperous future for all.</string>
+    <string name="hpbutton"><![CDATA[<- Homepage]]></string>
+    <string name="reach_out_to_us">Reach Out To Us</string>
+    <string name="location"><![CDATA[Empowering the Nation @ 1 Link Road St James Avenue &, Link Rd, Westville, Durban, 3630]]></string>
+    <string name="physical_address">Physical Address</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="comms">Cellphone Number: 082 123 1234 Email Address: empthenation@gmail.com</string>
 </resources>

@@ -5,14 +5,16 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#1F1F1F"
-    android:backgroundTint="#2E2B2B"
+    android:background="@drawable/phone_wallpaper_blue_flowers"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="440dp"
-        android:layout_height="415dp"
+        android:layout_width="223dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="115dp"
         android:contentDescription="@string/todo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,34 +24,32 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="178dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="143dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="143dp"
-        android:backgroundTint="#50ADE3"
+        android:layout_width="159dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#558DAF"
         android:text="@string/get_started"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:cornerRadius="0px"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="139dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="134dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="134dp"
+        android:layout_width="199dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="220dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="@string/from_techminds_institute2"
         android:textAlignment="center"
         android:textAllCaps="true"
-        android:textColor="#C8C8C8"
+        android:textColor="#2E2B2B"
         android:textColorHighlight="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textColorLink="#FFFFFF"
@@ -57,7 +57,7 @@
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        tools:ignore="TextSizeCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="TextSizeCheck,VisualLintBounds" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
