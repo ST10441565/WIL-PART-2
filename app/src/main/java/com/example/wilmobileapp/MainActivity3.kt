@@ -57,5 +57,15 @@ class MainActivity3 : AppCompatActivity() {
             val intent = Intent(this, MainActivity9::class.java)
             startActivity(intent)
         }
+
+        cookButton?.setOnClickListener {
+            val intent = Intent(this, MainActivity10::class.java)
+            startActivity(intent)
+        }
+
+        gmButton?.setOnClickListener {
+            val intent = Intent(this, MainActivity11::class.java)
+            startActivity(intent)
+        }
     }
 }

@@ -47,7 +47,7 @@
         android:layout_marginStart="150dp"
         android:layout_marginTop="38dp"
         android:layout_marginEnd="150dp"
-        android:text="Fees: R1500"
+        android:text="Fees: R750"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
