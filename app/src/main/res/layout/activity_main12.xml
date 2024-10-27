@@ -113,7 +113,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#8FAAD3"
             android:minHeight="48dp"
-            android:text="Request Booking"
+            android:text="Send Invoice"
             app:cornerRadius="0px"
             tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
 
