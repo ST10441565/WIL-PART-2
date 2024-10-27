@@ -67,5 +67,10 @@ class MainActivity3 : AppCompatActivity() {
             val intent = Intent(this, MainActivity11::class.java)
             startActivity(intent)
         }
+
+        calcButton?.setOnClickListener {
+            val intent = Intent(this, MainActivity12::class.java)
+            startActivity(intent)
+        }
     }
 }

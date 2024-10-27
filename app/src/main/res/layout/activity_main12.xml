@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_flower_wallpaper_2"
+    tools:context=".MainActivity12">
+
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="253dp"
+        android:layout_height="628dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="60dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck">
+
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="Name"
+            tools:ignore="HardcodedText,TextFields,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/etPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress"
+            tools:ignore="Autofill,HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Select Courses"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+
+        <CheckBox
+            android:id="@+id/cbCourse1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Aid - R1500"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:id="@+id/cbCourse2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sewing - R1500"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:id="@+id/cbCourse3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Landscaping - R1500"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:id="@+id/cbCourse4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Life Skills - R1500"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:id="@+id/cbCourse5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Child Minding - R750"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:id="@+id/cbCourse6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cooking - R750"
+            tools:ignore="HardcodedText" />
+
+
+        <CheckBox
+            android:id="@+id/cbCourse7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Garden Maintenance - R750"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8FAAD3"
+            android:minHeight="48dp"
+            android:text="Request Booking"
+            app:cornerRadius="0px"
+            tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -316,15 +316,15 @@
         android:id="@+id/button13"
         android:layout_width="177dp"
         android:layout_height="43dp"
-        android:layout_marginStart="65dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginEnd="117dp"
         android:backgroundTint="#8FAAD3"
         android:text="Pick Your Course(s)"
         android:textSize="14sp"
         app:cornerRadius="0px"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12"
         tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck,TextSizeCheck" />
 
     <TextView

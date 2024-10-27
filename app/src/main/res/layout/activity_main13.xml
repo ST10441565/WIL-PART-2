@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_flower_wallpaper_2"
+    tools:context=".MainActivity13">
+
+    <!-- activity_main13.xml -->
+    <TextView
+        android:id="@+id/textViewSummary"
+        android:layout_width="256dp"
+        android:layout_height="455dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="80dp"
+        android:lineSpacingExtra="8sp"
+        android:padding="16dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="163dp"
+        android:backgroundTint="#8FAAD3"
+        android:text="Back"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:cornerRadius="0px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSummary"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
