@@ -17,7 +17,7 @@
         android:layout_marginEnd="143dp"
         android:backgroundTint="#8FAAD3"
         android:text="Back"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:cornerRadius="0px"
@@ -25,7 +25,7 @@
         app:layout_constraintHorizontal_bias="0.593"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView28"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText,TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView24"

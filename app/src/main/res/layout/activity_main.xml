@@ -33,6 +33,7 @@
         android:text="@string/get_started"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
+        android:textStyle="bold|italic"
         app:cornerRadius="0px"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
