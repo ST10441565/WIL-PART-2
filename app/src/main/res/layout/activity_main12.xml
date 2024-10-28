@@ -10,8 +10,8 @@
 
     <LinearLayout
         android:id="@+id/main"
-        android:layout_width="253dp"
-        android:layout_height="628dp"
+        android:layout_width="255dp"
+        android:layout_height="664dp"
         android:layout_marginStart="60dp"
         android:layout_marginTop="68dp"
         android:layout_marginEnd="60dp"
@@ -114,8 +114,19 @@
             android:backgroundTint="#8FAAD3"
             android:minHeight="48dp"
             android:text="Send Invoice"
+            android:textStyle="bold|italic"
             app:cornerRadius="0px"
             tools:ignore="HardcodedText,TextContrastCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8FAAD3"
+            android:text="Back"
+            android:textStyle="bold|italic"
+            app:cornerRadius="0px"
+            tools:ignore="HardcodedText,TextContrastCheck" />
 
     </LinearLayout>
 

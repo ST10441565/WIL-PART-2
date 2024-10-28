@@ -52,6 +52,13 @@ class MainActivity12 : AppCompatActivity() {
         cbCourse7 = findViewById(R.id.cbCourse7)
         btnSubmit = findViewById(R.id.btnSubmit)
 
+        val backButton = findViewById<Button>(R.id.button16)
+
+        backButton?.setOnClickListener {
+            val intent = Intent(this, MainActivity3::class.java)
+            startActivity(intent)
+        }
+
         btnSubmit.setOnClickListener {
             handleFormSubmission()
         }
@@ -125,6 +132,5 @@ class MainActivity12 : AppCompatActivity() {
             putExtra("finalFee", finalFee)
         }
         startActivity(intent)
-
     }
 }
