@@ -8,25 +8,6 @@
     android:background="@drawable/blue_flower_wallpaper_2"
     tools:context=".MainActivity4">
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="169dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="121dp"
-        android:layout_marginTop="26dp"
-        android:layout_marginEnd="121dp"
-        android:backgroundTint="#8FAAD3"
-        android:text="Homepage"
-        android:textColor="#FFFFFF"
-        android:textSize="17sp"
-        android:textStyle="bold|italic"
-        app:cornerRadius="0px"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView21"
-        tools:ignore="HardcodedText,TextContrastCheck" />
-
     <TextView
         android:id="@+id/textView9"
         android:layout_width="220dp"
@@ -45,31 +26,14 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="TextSizeCheck" />
 
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="188dp"
-        android:layout_height="30dp"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="144dp"
-        android:text="@string/contact_details"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        tools:ignore="TextSizeCheck" />
-
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="60dp"
         android:layout_height="56dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
         app:srcCompat="@drawable/call_tag"
         tools:ignore="ContentDescription" />
 
@@ -90,12 +54,48 @@
         app:layout_constraintTop_toBottomOf="@+id/textView20"
         tools:ignore="HardcodedText,TextSizeCheck" />
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="169dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="121dp"
+        android:backgroundTint="#8FAAD3"
+        android:text="Homepage"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        android:textStyle="bold|italic"
+        app:cornerRadius="0px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="188dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="144dp"
+        android:text="@string/contact_details"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="TextSizeCheck" />
+
     <TextView
         android:id="@+id/textView19"
         android:layout_width="146dp"
         android:layout_height="35dp"
         android:layout_marginStart="132dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="11dp"
         android:layout_marginEnd="133dp"
         android:text="@string/physical_address"
         android:textAlignment="center"
@@ -103,37 +103,64 @@
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:ignore="TextSizeCheck" />
 
     <TextView
         android:id="@+id/textView18"
-        android:layout_width="276dp"
-        android:layout_height="68dp"
+        android:layout_width="245dp"
+        android:layout_height="41dp"
         android:layout_marginStart="67dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="7dp"
         android:layout_marginEnd="68dp"
-        android:text="@string/location"
+        android:text="11 Kotze St, Braamfontein, Johannesburg, 2017"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView19"
-        tools:ignore="TextSizeCheck" />
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="61dp"
         android:layout_height="49dp"
         android:layout_marginStart="172dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="7dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:srcCompat="@drawable/location_tag"
         tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="245dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="8dp"
+        android:text="Northern Pkwy and Data Cres, Johannesburg, 2159"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="244dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="8dp"
+        android:text="Northern Parkway and Gold Reef Road, Johannesburg, 2001"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        tools:ignore="HardcodedText,TextSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

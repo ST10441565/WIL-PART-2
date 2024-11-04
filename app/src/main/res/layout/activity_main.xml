@@ -40,25 +40,4 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         tools:ignore="TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="199dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="238dp"
-        android:layout_marginEnd="220dp"
-        android:fontFamily="sans-serif-smallcaps"
-        android:text="@string/from_techminds_institute2"
-        android:textAlignment="center"
-        android:textAllCaps="true"
-        android:textColor="#2E2B2B"
-        android:textColorHighlight="#FFFFFF"
-        android:textColorHint="#FFFFFF"
-        android:textColorLink="#FFFFFF"
-        android:textSize="14sp"
-        android:textStyle="italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        tools:ignore="TextSizeCheck,VisualLintBounds" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
